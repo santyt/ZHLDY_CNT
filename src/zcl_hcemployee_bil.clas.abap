@@ -1,0 +1,5 @@
+CLASS zcl_hcemployee_bil DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_hcemployee_counters.
+ENDCLASS.
+
+CLASS zcl_hcemployee_bil IMPLEMENTATION.
+ENDCLASS.

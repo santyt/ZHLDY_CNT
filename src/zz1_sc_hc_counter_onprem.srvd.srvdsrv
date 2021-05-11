@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for holiday counter'
+define service ZZ1_SC_HC_COUNTER_ONPREM {
+  expose ZCE_HC_COUNTER as hc_counter;
+}

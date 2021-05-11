@@ -1,0 +1,24 @@
+unmanaged;
+
+define behavior for ZI_HCEMPLOYEE_COUNTERS alias Employee_counters
+implementation in class ZCL_HCEMPLOYEE_BIL unique
+
+etag master Lastchangedat
+
+{
+
+  create;
+  update;
+  delete;
+
+  field ( readonly ) CreatedBy, CreatedAt, LastChangedBy, LastChangedAt;
+
+  mapping for ZHC_COUNTER control ZSHCEmployee_counters_X
+  {
+    EmployeeID = EMPLOYEE_ID;
+    EmployeeLastname = EMPLOYEE_LASTNAME;
+    EmployeeFirstname = EMPLOYEE_FIRSTNAME;
+    AssignedHolidays = ASSIGNED_HOLIDAYS;
+    RemainingHolidays = REMAINING_HOLIDAYS;
+  }
+}

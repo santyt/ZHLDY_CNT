@@ -1,0 +1,5 @@
+@EndUserText.label: 'ZZ1_SC_HC_COUNTER_BE'
+@OData.schema.name: 'ZI_HC_COUNTER_CDS'
+define service ZZ1_SC_HC_COUNTER_BE {
+ expose ZHC_AE_COUNTER; 
+ } 

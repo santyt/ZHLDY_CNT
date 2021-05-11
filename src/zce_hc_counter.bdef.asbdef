@@ -1,0 +1,11 @@
+unmanaged implementation in class zbp_ce_hc_counter unique;
+
+define behavior for ZCE_HC_COUNTER alias hc_counter
+//late numbering
+//lock master
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}
